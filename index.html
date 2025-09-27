@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Hyungsup Park</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- ===== HEADER / NAVBAR ===== -->
   <header>
-    <nav class="navbar">
-      <div class="logo">My<span>Portfolio</span></div>
+    <nav class="navbar" id="navbar">
+      <div class="logo"><a href="index.html">Hyungsup Park</a></div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+		<li><a href="resume/Hyungsup_Park.pdf">Resume</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -20,9 +21,10 @@
   </header>
 
   <!-- ===== HERO ===== -->
-  <section class="hero">
-    <h1>Hello, I'm <span class="accent">Your Name</span></h1>
-    <p>Web Developer • Designer • Creator</p>
+   
+  <section class="hero" id="hero">
+    <h1>Hello, I'm <span class="accent">Hyungsup</span></h1>
+    <p>Engineer • Designer • Creator</p>
     <a href="#projects" class="btn">View My Work</a>
   </section>
 
@@ -30,8 +32,9 @@
   <section id="about" class="about">
     <h2>About Me</h2>
     <p>
-      Brief introduction about yourself—skills, passions, or professional background.
-    </p>
+      Hi! I'm a mechanical engineer graduate from the Universtiy of Toronto with hands-on experience as a hardware engineering intern at NVIDIA. 
+		Currently serving in the ROK Army, I bring a blend of strong technical foundations to the field of Robotics and Mechatronics.
+	</p>
   </section>
 
   <!-- ===== PROJECTS ===== -->
@@ -52,6 +55,13 @@
       </a>
       <p>Short teaser of Project Two.</p>
     </div>
+	<div class="project-card">
+      <a href="projects/project3.html">
+        <img src="images/project3/preview1.png" alt="Project 2">
+        <h3>Project Three</h3>
+      </a>
+      <p>Short teaser of Project Three.</p>
+    </div>
     <!-- Add more project cards as needed -->
   </div>
 </section>
@@ -59,13 +69,13 @@
   <!-- ===== CONTACT ===== -->
   <section id="contact" class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    <p>Email: <a href="mailto:hyungsup.park2000@gmail.com">hyungsup.park2000@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/HyungsupPark" target="_blank">github.com/HyungsupPark</a></p>
   </section>
 
   <!-- ===== FOOTER ===== -->
   <footer>
-    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    <p>© <span id="year"></span> Hyungsup Park </p>
   </footer>
 
   <script src="script.js"></script>
