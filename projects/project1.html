@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project One – My Portfolio</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="../index.html">My<span>Portfolio</span></a></div>
+      <ul class="nav-links">
+        <li><a href="../index.html#projects">Back to Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="project-detail">
+    <h1>Project One</h1>
+    <p>Full description of Project One. Explain goals, tech stack, and any special features.</p>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+      <img src="../images/project1/screenshot1.png" alt="Screenshot 1">
+      <img src="../images/project1/screenshot2.png" alt="Screenshot 2">
+    </div>
+
+    <!-- Downloadable Documents -->
+    <div class="documents">
+      <h2>Documents</h2>
+      <a href="../docs/project1-report.pdf" download>Download Project Report (PDF)</a>
+    </div>
+
+    <!-- Video Demo -->
+    <h2>Video Demo</h2>
+    <video controls class="project-video">
+      <source src="../videos/demo1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
