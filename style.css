@@ -41,22 +41,21 @@ header { background-color: transparent; padding: 1rem 0; position: sticky; top: 
 
 /* ===== Hero ===== */
 .hero {
+    font-size: 1.25rem;
   height: 100vh;
   background: #000000;
   color: #ffffff; text-align: center;
   display: flex; flex-direction: column; justify-content: center;
   padding: 0 2rem;
 }
-.hero h1 { font-size: 3rem; margin-bottom: 1rem; }
-.hero .accent { color: #; }
+.hero h1 { font-size: 5rem; margin-bottom: 1rem; }
 .btn {
-    font-size: 1.25rem;
-  color: #ffffff;
+  color: #a9a9a9;
   padding: 0.5rem 0rem; border-radius: 10px;
   text-decoration: none; transition: background 0.3s;
   font-weight: bold;
 }
-/*.btn:hover { background: #a9a9a9; }*/
+.btn:hover { color: #ffff; }
 
 /* ===== Sections ===== */
 section { background-color: #f8f9fa; padding: 4rem 2rem; text-align: center; }
@@ -76,6 +75,19 @@ h2 { margin-bottom: 1.5rem; font-size: 2rem; }
   padding: 1rem;
   transition: transform 0.3s;
 }
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-card a {
+  color: #000;
+  }
+.project-card a:hover {
+  color: #a9a9a9;
+  }
+
 .project-card:hover { transform: translateY(-5px); }
 .project-card h3 { margin-top: 0.5rem; }
 .project-card p { margin: 0.5rem 0 1rem; }
@@ -110,8 +122,21 @@ h2 { margin-bottom: 1.5rem; font-size: 2rem; }
 }
 
 /* ===== Contact & Footer ===== */
-.contact a { color: #4fc3f7; text-decoration: none; }
+.contact {
+    font-weight: bold;
+}
+
+.contact a { 
+    color: #a9a9a9; 
+    text-decoration: none;
+    font-weight: normal;
+}
+.contact a:hover { 
+    color: #7a7a7a; 
+    text-decoration: none; 
+    font-weight: bold; 
+}    
 footer {
-  background: #222; color: #aaa;
+  background: #000; color: #a9a9a9;
   padding: 1rem 0; text-align: center;
 }
